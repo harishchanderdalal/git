@@ -8,8 +8,13 @@ git commit -m "ANY COMMENT"
 git push origin master
 ```
 
-## Delete All Old Commits
+## How Create New Branch and Push
+```
+git checkout -b NEWBRANCH
+git push -u origin master
+```
 
+## Delete All Old Commits
 ```
 git checkout --orphan new_branch
 git add -A
