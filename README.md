@@ -1,6 +1,14 @@
 # git
 
-## How to delete all the old Commit
+## How to Push Commit
+```
+git status
+git add .
+git commit -m "ANY COMMENT"
+git push origin master
+```
+
+## Delete All Old Commits
 
 ```
 git checkout --orphan new_branch
